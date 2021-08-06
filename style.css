@@ -1,0 +1,257 @@
+body
+{
+	font-family: helvetica;
+	background-color: #9d998c;
+}
+*
+{
+	box-sizing: border-box;
+}
+h1
+{
+	text-align: center;
+	color: #40281b;
+
+}
+#container
+{
+	position : relative;
+}
+#p1
+{
+	position:  absolute;
+	top: 0;
+	right: 0;
+	height: 35px;
+  	width: 120px;
+  	padding: 10px;
+  	text-align: center;
+  	background-color: #d9a23f;
+  	color: white;
+  	font-weight: bold;
+}
+
+#p2
+{
+	position:  absolute;
+	top: 0;
+	right: 0;
+	height: 35px;
+  	width: 120px;
+  	padding: 10px;
+  	text-align: center;
+  	background-color: #bf7b54;
+  	color: white;
+  	font-weight: bold;
+}
+#p3
+{
+	position:  absolute;
+	top: 0;
+	right: 0;
+	height: 35px;
+  	width: 120px;
+  	padding: 10px;
+  	text-align: center;
+  	background-color: #734230;
+  	color: white;
+  	font-weight: bold;
+}
+p
+{
+	
+	height: 150px;
+	background-color: #d6d1bf;
+	
+	margin-right: 10px;
+	color: black; 
+	border: 2px solid black;
+	padding:  40px 10px 5px 10px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+	
+.row
+{
+	width: 100%;
+
+}
+
+/*** large device ***/
+
+@media (min-width : 992px)
+{
+	.clg1, .clg2, .clg3, .clg4, .clg5, .clg6, .clg7, .clg8, .clg9, .clg10, .clg11,.clg12
+	{
+		float:  left;
+		
+		
+	}
+	.clg1
+	{
+		width:8.33 %;
+	}
+	.clg2
+	{
+		width: 16.66%;
+	}
+	.clg3
+	{
+		width: 25%;
+	}
+	.clg4
+	{
+		width: 33%;
+	}
+	.clg5
+	{
+		width: 41.66%;
+	}
+	.clg6
+	{
+		width: 50%;
+	}
+	.clg7
+	{
+		width: 58.33%;
+	}
+	.clg8
+	{
+		width: 66.66%;
+	}
+	.clg9
+	{
+		width: 74.99%;
+	}
+	.clg10
+	{
+		width: 83.33%;
+	}
+	.clg11
+	{
+		width: 91.66%;
+	}
+	.clg12
+	{
+		width: 100%;
+	}
+}
+
+/***medium device ***/
+
+@media (min-width : 768px) and (max-width: 991px)
+{
+	.cmd1, .cmd2, .cmd3, .cmd4, .cmd5, .cmd6, .cmd7, .cmd8, .cmd9, .cmd10, .cmd11,.cmd12
+	{
+		float:  left;
+		
+		
+	}
+	.cmd1
+	{
+		width:8.33 %;
+	}
+	.cmd2
+	{
+		width: 16.66%;
+	}
+	.cmd3
+	{
+		width: 25%;
+	}
+	.cmd4
+	{
+		width: 33%;
+	}
+	.cmd5
+	{
+		width: 41.66%;
+	}
+	.cmd6
+	{
+		width: 50%;
+	}
+	.cmd7
+	{
+		width: 58.33%;
+	}
+	.cmd8
+	{
+		width: 66.66%;
+	}
+	.cmd9
+	{
+		width: 74.99%;
+	}
+	.cmd10
+	{
+		width: 83.33%;
+	}
+	.cmd11
+	{
+		width: 91.66%;
+	}
+	.cmd12
+	{
+		width: 100%;
+	}
+}
+
+/*** small device ***/
+
+@media (max-width : 767px)
+{
+	.cs1, .cs2, .cs3, .cs4, .cs5, .cs6, .cs7, .cs8, .cs9, .cs10, .cs11,.cs12
+	{
+		float:  left;
+		
+	}
+	.cs1
+	{
+		width:8.33 %;
+	}
+	.cs2
+	{
+		width: 16.66%;
+	}
+	.cs3
+	{
+		width: 25%;
+	}
+	.cs4
+	{
+		width: 33%;
+	}
+	.cs5
+	{
+		width: 41.66%;
+	}
+	.cs6
+	{
+		width: 50%;
+	}
+	.cs7
+	{
+		width: 58.33%;
+	}
+	.cs8
+	{
+		width: 66.66%;
+	}
+	.cs9
+	{
+		width: 74.99%;
+	}
+	.cs10
+	{
+		width: 83.33%;
+	}
+	.cs11
+	{
+		width: 91.66%;
+	}
+	.cs12
+	{
+		width: 100%;
+	}
+}
